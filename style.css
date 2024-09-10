@@ -1,0 +1,155 @@
+html, body, :root
+{
+  margin: 0;
+  height: 100vh;
+}
+
+@font-face {
+    font-family: 'mondapick'; /*a name to be used later*/
+    src: url('./font/Mondapick.ttf'); /*URL to font*/
+}
+
+
+.wrapper
+{
+  font-family: 'mondapick';
+  display: flex;
+  width: 100%;
+  height: 100%;
+  background-color: #ff8a00 ;
+}
+
+.left
+{
+  display: flex;
+  flex-direction: column;
+  height: 100vh;
+  width: 40vw;
+  color: #ffffff;
+}
+
+.title
+{
+  font-size: 5rem;
+
+  margin-left: 2rem;
+  margin-top: 1rem;
+}
+
+.catchphrase
+{
+  font-size: 2rem;
+
+  margin-left: 2rem;
+}
+
+.img-wrapper
+{
+  display: flex;
+  height: 100%;
+  align-items: center;
+  justify-content: center;
+}
+
+.img
+{
+  max-width: 653px;
+  max-height: 391px;
+  margin-bottom: 8vh;
+}
+
+.copyright
+{
+  font-size: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+  background-color: #000000;
+}
+
+.right
+{
+  color: #000000;
+  height: 100vh;
+  width: 60vw;
+  background-color: #FFD18E;
+}
+
+.wrapper-right
+{
+  margin-top: 2rem;
+}
+
+
+.sign-up
+{
+  font-size: 4rem;
+
+  margin-left: 4rem;
+  margin-top: 8rem;
+  margin-bottom: 14rem;
+}
+
+.form
+{
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  background-color: #FFC067;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 5rem;
+}
+
+.name
+{ 
+  margin: 1rem;
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: space-evenly;
+}
+
+.personal
+{
+  margin-bottom: 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.pwd
+{
+  margin-bottom: 1rem;
+  display: flex;
+  width: 100%;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.create
+{
+  margin-left: 5rem;
+}
+
+.registered
+{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  
+  width: 100%;
+  
+  margin-top: 10rem;
+}
+
+.question
+{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.login-button
+{
+  margin-left: 1rem;
+}
