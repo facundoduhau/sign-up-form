@@ -9,6 +9,10 @@ html, body, :root
     src: url('./font/Mondapick.ttf'); /*URL to font*/
 }
 
+input
+{
+  border: none;
+}
 
 .wrapper
 {
@@ -76,17 +80,43 @@ html, body, :root
 
 .wrapper-right
 {
-  margin-top: 2rem;
+  margin-top: 5rem;
 }
 
+.text-box
+{
+  font-size: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.box
+{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background-color: #FFC067;
+  padding: 1rem;
+  border-radius: 1rem;
+  
+}
+
+.phrase
+{
+  font-size: 4rem;
+  font-weight: bold;
+}
 
 .sign-up
 {
-  font-size: 4rem;
+  font-size: 24px;
 
-  margin-left: 4rem;
-  margin-top: 8rem;
-  margin-bottom: 14rem;
+  margin-left: 2rem;
+  margin-top: 4rem;
+  margin-bottom: 2rem;
 }
 
 .form
@@ -97,7 +127,7 @@ html, body, :root
   background-color: #FFC067;
   justify-content: center;
   align-items: center;
-  margin-bottom: 5rem;
+  margin-bottom: 2rem;
 }
 
 .name
@@ -107,6 +137,13 @@ html, body, :root
   width: 100%;
   align-items: center;
   justify-content: space-evenly;
+}
+
+.first, .last, .email, .phone, .password, .password-confirm
+{
+  width: 20rem;
+  padding: 10px;
+  border-radius: 5px;
 }
 
 .personal
@@ -129,7 +166,24 @@ html, body, :root
 
 .create
 {
-  margin-left: 5rem;
+  margin-left: 10rem;
+}
+
+.create-button
+{
+  font-size: 24px;
+  border: none;
+  padding: 10px;
+  border-radius: 1rem;
+  background-color: #ff8a00 ;
+  color: #ffffff;
+}
+
+.create-button:hover
+{
+  cursor: pointer;
+  background-color: #FFC067;
+  color: #000000;
 }
 
 .registered
@@ -140,7 +194,7 @@ html, body, :root
   
   width: 100%;
   
-  margin-top: 10rem;
+  margin-top: 8rem;
 }
 
 .question
@@ -152,4 +206,14 @@ html, body, :root
 .login-button
 {
   margin-left: 1rem;
+  border: none;
+  background-color: #FFD18E;
+  color: #ff8a00;
+  font-size: 1rem;
+}
+
+
+.login-button:hover
+{
+  cursor: pointer;
 }
